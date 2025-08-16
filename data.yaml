@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['diseased wing', 'honeybee', 'varroa mite']
+
+roboflow:
+  workspace: new-workspace-kzpa5
+  project: science-fair-2025-di8ww
+  version: 1
+  license: CC BY 4.0
+  url: https://app.roboflow.com/new-workspace-kzpa5/science-fair-2025-di8ww/1
